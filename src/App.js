@@ -14,7 +14,7 @@ function getGreeting() {
 function GreetingComponent() {
   return (
     <p>{getGreeting()}</p>
-  );
+  )
 }
 
 export default GreetingComponent;
