@@ -8,6 +8,10 @@ import LuckyNumber from './week1.5';
 import GreetingNames from './week1.6.js';
 import FavouriteFruits from './week1.7.js';
 
+function Header(){
+  return <header>Welcome to My App!</header> 
+}
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +22,7 @@ function App() {
       <LuckyNumber />
       <GreetingNames />
       <FavouriteFruits />
+      <Header />
     </div>
   );
 }
