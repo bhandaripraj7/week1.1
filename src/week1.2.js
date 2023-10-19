@@ -7,7 +7,7 @@ Exercise 2: Create a function called `getGreeting` that returns a greeting messa
 
 import React from "react";
 function getGreeting(){
-    return "Welcome to the world of React";
+    return "Welcome to the World of React";
 }
 function GreetingComponent(){
     return (

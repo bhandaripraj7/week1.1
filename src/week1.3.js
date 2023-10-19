@@ -12,7 +12,7 @@ those colors using JSX. Create a single <p> element into which you render the co
         const ColorStrings= Colors.join(",");
         return  (
             <p>{ColorStrings}</p>
-        );
+        )
 
     }
     export default ColorComponent;

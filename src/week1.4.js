@@ -9,7 +9,7 @@ is multiplied by itself. You should render each number as a <p> element in the f
         const numbers= [1,2,3,4,5];
         const squaredElements= numbers.map((number) => (<p>{number} squared is {number*number}</p>));
         return (
-            <p>{squaredElements}</p>
+            squaredElements
 
         )
 
