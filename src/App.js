@@ -6,6 +6,7 @@ import ColorComponent from './week1.3.js';
 import SquareComponent from './week1.4.js';
 import LuckyNumber from './week1.5';
 import GreetingNames from './week1.6.js';
+import FavouriteFruits from './week1.7.js';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <SquareComponent />
       <LuckyNumber />
       <GreetingNames />
+      <FavouriteFruits />
     </div>
   );
 }
